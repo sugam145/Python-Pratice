@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Namaste",
+        "Hey",
+        "Namaskar",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you?",
+        "What's up?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hello! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "book_room",
+      "patterns": [
+        "I want to book a room",
+        "Book a room for me",
+        "Room booking",
+        "I need a room",
+        "Reserve a room",
+        "I’d like to book a room",
+        "Can you book a room for me?",
+        "Make a reservation for a room"
+      ],
+      "responses": [
+        "Sure! Please provide the room number you'd like to book.",
+        "I can help with that. Which room number would you like to book?"
+      ]
+    },
+    {
+      "tag": "cancel_booking",
+      "patterns": [
+        "Cancel my booking",
+        "I want to cancel my reservation",
+        "I need to cancel my room booking",
+        "Please cancel my reservation",
+        "How do I cancel my booking?",
+        "Cancel my room reservation"
+      ],
+      "responses": [
+        "Please provide your booking ID.",
+        "To cancel your booking, I'll need your booking ID. Could you provide it, please?"
+      ]
+    },
+    {
+      "tag": "check_availability",
+      "patterns": [
+        "Is the room available",
+        "Check room availability",
+        "Are rooms available?",
+        "Do you have any rooms free?",
+        "Can you check if a room is available?",
+        "I want to know if a room is available",
+        "Check if there's a room available"
+      ],
+      "responses": [
+        "Please provide the room number and the dates you want to check.",
+        "I can check that for you. Please tell me the room number and the dates you're interested in."
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thanks for your help",
+        "I'm grateful",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "No problem, glad I could assist!"
+      ]
+    }
+  ]
+}

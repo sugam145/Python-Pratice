@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "How are you?"],
+      "responses": ["Hi there!", "Hello!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "I want to book a room",
+        "Book a room",
+        "I would like to make a reservation"
+      ],
+      "responses": [
+        "Let's get you booked! Please provide your check-in and check-out dates."
+      ]
+    },
+    {
+      "tag": "room_availability",
+      "patterns": [
+        "Check room availability",
+        "Are rooms available?",
+        "What rooms are available?"
+      ],
+      "responses": [
+        "We have a variety of rooms available. Please provide your check-in and check-out dates."
+      ]
+    },
+    {
+      "tag": "room_type",
+      "patterns": [
+        "Single room",
+        "Double room",
+        "Suite",
+        "Deluxe room",
+        "Family room",
+        "Executive room"
+      ],
+      "responses": [
+        "We have the following room types: Single, Double, Suite, Deluxe, Executive, Family. Which one would you like?"
+      ]
+    },
+    {
+      "tag": "number_of_persons",
+      "patterns": [
+        "For 2 people",
+        "For 3 persons",
+        "For 1 person",
+        "For 4 guests"
+      ],
+      "responses": ["Please let me know the number of persons for your stay."]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thank you", "Thanks", "I appreciate it"],
+      "responses": [
+        "You're welcome! If you need anything else, feel free to ask."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities do you have?",
+        "Tell me about your amenities",
+        "What amenities are available?"
+      ],
+      "responses": [
+        "We offer a variety of facilities including a gym, spa, swimming pool, and free Wi-Fi."
+      ]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "I want to cancel my booking",
+        "Cancel my reservation",
+        "How do I cancel?"
+      ],
+      "responses": [
+        "You can cancel your booking by contacting our customer support. Please provide your reservation details."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the hotel located?",
+        "Tell me the address",
+        "Hotel location"
+      ],
+      "responses": ["We are located at 123 Hotel Avenue, Cityville."]
+    }
+  ]
+}
